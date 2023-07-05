@@ -14,3 +14,4 @@ ngx.header["Content-type"] = "text/html"
 
 ngx.say(calculate_signature(path) .. "/" .. path)
 
+
